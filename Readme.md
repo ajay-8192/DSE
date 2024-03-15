@@ -99,4 +99,3 @@ So, that's atomic design! These five distinct stages concurrently work together 
 4. Easy to understand (comments, variables)
 5. Fully customizable / themable
 6. Reusable across teams / projects
-

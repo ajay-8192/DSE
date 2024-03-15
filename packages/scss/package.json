@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint ./**/*.scss",
-    "lint:fix": "npm run lint --fix",
+    "lint:fix": "stylelint ./**/*.scss --fix",
     "build": "node src/scripts/build.js"
   },
   "husky": {
@@ -21,8 +21,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^9.0.0",
-    "normalize-scss": "^8.0.0"
+    "normalize-scss": "^8.0.0",
+    "sass": "^1.72.0"
   },
   "devDependencies": {
     "husky": "^9.0.11",
